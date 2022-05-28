@@ -3,6 +3,7 @@ import Settings from '../../settings/settings.json';
 
 export const primary = `${Settings.colors.primary}`;
 export const secondary = `${Settings.colors.secondary}`;
+export const tertiary = `${Settings.colors.tertiary}`;
 export const black = `${Settings.colors.black}`;
 export const white = `${Settings.colors.white}`;
 
@@ -17,7 +18,7 @@ export const LightTheme = responsiveFontSizes(
         main: secondary,
       },
       background: {
-        default: white,
+        default: tertiary,
       },
       foreground: {
         default: black,
@@ -37,19 +38,19 @@ export const LightTheme = responsiveFontSizes(
       },
       h5: {
         fontWeight: 500,
-        fontFamily: 'Roboto Mono, monospace',
+        fontFamily: 'AndaleMono, monospace',
       },
       body1: {
         fontWeight: 500,
-        fontFamily: 'Roboto Mono, monospace',
+        fontFamily: 'AndaleMono, monospace',
       },
     },
     overrides: {
       MuiCssBaseline: {
         '@global': {
           body: {
-            color: black,
-            backgroundColor: white,
+            color: primary,
+            backgroundColor: tertiary,
           },
         },
       },
@@ -58,7 +59,7 @@ export const LightTheme = responsiveFontSizes(
           boxShadow:
             '0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)',
           '&:hover': {
-            backgroundColor: primary,
+            backgroundColor: secondary,
           },
           transition: 'all 0.5s ease',
         },
@@ -74,7 +75,7 @@ export const LightTheme = responsiveFontSizes(
           backgroundColor: 'transparent',
           '&:hover': {
             color: black,
-            backgroundColor: primary,
+            backgroundColor: secondary,
           },
           transition: 'all 0.5s ease !important',
         },
@@ -85,7 +86,7 @@ export const LightTheme = responsiveFontSizes(
           backgroundColor: 'transparent',
           '&:hover': {
             color: white,
-            backgroundColor: primary,
+            backgroundColor: black,
           },
           transition: 'all 0.5s ease',
           margin: '0px',
@@ -94,9 +95,9 @@ export const LightTheme = responsiveFontSizes(
       },
       MuiTooltip: {
         tooltip: {
-          fontFamily: 'Roboto Mono, monospace',
-          backgroundColor: primary,
-          color: black,
+          fontFamily: 'AndaleMono, monospace',
+          backgroundColor: secondary,
+          color: white,
           fontSize: 12,
         },
       },
@@ -135,18 +136,18 @@ export const DarkTheme = responsiveFontSizes(
       },
       h5: {
         fontWeight: 500,
-        fontFamily: 'Roboto Mono, monospace',
+        fontFamily: 'AndaleMono, monospace',
       },
       body1: {
         fontWeight: 500,
-        fontFamily: 'Roboto Mono, monospace',
+        fontFamily: 'AndaleMono, monospace',
       },
     },
     overrides: {
       MuiCssBaseline: {
         '@global': {
           body: {
-            color: white,
+            color: secondary,
             backgroundColor: black,
           },
         },
@@ -192,7 +193,7 @@ export const DarkTheme = responsiveFontSizes(
       },
       MuiTooltip: {
         tooltip: {
-          fontFamily: 'Roboto Mono, monospace',
+          fontFamily: 'AndaleMono, monospace',
           backgroundColor: primary,
           color: white,
           fontSize: 12,

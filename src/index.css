@@ -6,12 +6,12 @@
   box-sizing: border-box;
 }
 ::-moz-selection {
-  background: #00bfbf;
+  background: #127475;
   color: #fafafa;
   text-shadow: none;
 }
 ::selection {
-  background: #00bfbf;
+  background: #127475;
   color: #fafafa;
   text-shadow: none;
 }
@@ -31,4 +31,21 @@ body {
 p {
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
+}
+
+.pixelArt {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.subheading {
+  width: 80%;
+  margin-top: 7rem;
+  margin-left: 8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 200%;
 }

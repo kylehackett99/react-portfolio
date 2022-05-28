@@ -15,33 +15,45 @@ export const SideNavbar = () => {
         onClick={() => setActiveNav('#')}
         className={activeNav === '#' ? 'active' : ''}
       >
-        <Typography>
-          Home
-        </Typography>
+        
+        Home
+        
       </a>
-      <a href="#works"
-        onClick={() => setActiveNav('#works')}
-        className={activeNav === '#works' ? 'active' : ''}
-      >
-        <Typography>
-          Projects
-        </Typography>
-      </a>
+
       <a href="#about" 
         onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}
       >
-        <Typography>
-          About
-        </Typography>
+        
+        About
+        
       </a>
+
+      <a href="#experience"
+        onClick={() => setActiveNav('#experience')}
+        className={activeNav === '#experience' ? 'active' : ''}
+      >
+        
+        Work
+       
+      </a>
+
+      <a href="#projects"
+        onClick={() => setActiveNav('#projects')}
+        className={activeNav === '#projects' ? 'active' : ''}
+      >
+        
+        Projects
+        
+      </a>
+      
       <a href="#contact"
         onClick={() => setActiveNav('#contact')}
         className={activeNav === '#contact' ? 'active' : ''}
       >
-        <Typography>
-          Contact
-        </Typography>
+        
+        Contact
+        
       </a>
     </nav>
   );

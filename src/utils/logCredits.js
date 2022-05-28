@@ -11,7 +11,7 @@ export const logCredits = () => {
     ].join(";");
 
     return console.log(
-        `%c © ${new Date().getFullYear()} github.com/taniyow ${pieceEmoji}`,
+        `%c © ${new Date().getFullYear()} github.com/kylehackett99 \n thanks to github.com/taniyow for the fork and inspiration`,
         logStyle
     );
 };

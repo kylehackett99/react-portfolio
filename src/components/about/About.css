@@ -12,9 +12,9 @@
 }
 ._img {
   margin: 10em;
-  width: 35em;
-  height: 20em;
-  border-radius: 16px;
+  width: 25em;
+  height: 19em;
+  border-radius: 15px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.51);
 }
@@ -29,7 +29,7 @@
 .contact-btn:hover {
   margin-right: 20px;
   text-decoration: none;
-  background-color: #ec704c;
+  background-color: #127475;
 }
 @media (max-width: 1024px) {
   .about {

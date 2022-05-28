@@ -4,6 +4,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "./TextDecrypt";
 import Resume from "../../settings/resume.json";
 import { FirstName, LastName } from "../../utils/getName";
+import TypeAnimation from 'react-type-animation';
+
+
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -30,13 +33,23 @@ export const Content = () => {
   return (
     <Container component="main" className={classes.main} maxWidth="md">
       <div className={classes.heading}>
-        <Typography variant="h5" component="h2">
+        <Typography variant="h1" component="h1" className={classes.jobs}>
             <TextDecrypt text={`${FirstName} ${LastName}`} />
         </Typography>
-        <Typography variant="h1" component="h1" className={classes.jobs}>
-            <TextDecrypt text={`${Resume.basics.job1} + `} />
-            <TextDecrypt text={`${Resume.basics.job2}`} />
-        </Typography>
+        <TypeAnimation
+              cursor={true}
+              sequence={[
+                '',
+                2000,
+                'Computer Science Student',
+                2000,
+                'Future Software Engineer',
+                2000,
+              ]}
+              wrapper="h2"
+              repeat={Infinity}
+          />
+
       </div>
     </Container>
   );

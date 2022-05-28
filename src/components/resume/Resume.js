@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Link } from '@material-ui/core';
 import { TextDecrypt } from '../content/TextDecrypt';
-import ResumePDF from './../../assets/Tan_Mark_Resume.pdf';
+import ResumePDF from './../../assets/KyleHackett_Resume.pdf';
 import {
   ResumeIcon
 } from '../content/ResumeButton';
@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     bottom: theme.spacing(6),
     left: theme.spacing(6),
     '&:hover': {
-      color: theme.palette.primary.main,
+      color: theme.palette.primary.white,
     },
     transition: 'all 0.5s ease',
     display: 'flex',

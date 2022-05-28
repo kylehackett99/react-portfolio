@@ -1,145 +1,135 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
-        "picture": "mt.png",
+        "name": "Kyle Hackett",
+        "label": "Software Engineer",
+        "email": "kylejhackett99@gmail.com",
+        "picture": "",
         "x_title": "Hello, I'm",
-        "job1": "Designer",
-        "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Philippines.",
-        "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "job1": "Software Engineer",
+        "job2": "",
+        "description": "",
+        "summary": "based in Boston, Massachusetts.",
+        "keywords": "personal,website,portfolio,template,kyle,hackett,software,engineer,developer,boston,massachusetts,usa,webdev,web,developer,react,github,linkedin,google,spotify,webapp,markdown,java,c,c#,sql,assembly,android",
+        "url": "https://kylehackett99.github.io",
         "location": {
-            "address": "XX XXXXXstreet",
-            "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "city": "Boston",
+            "country": "Massachusetts",
+            "countryCode": "USA"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "kylejhackett99@gmail.com",
+                "url": "mailto:kylejhackett99@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "kylejhackett",
+                "url": "https://www.linkedin.com/in/kylejhackett/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "kylehackett99",
+                "url": "https://github.com/kylehackett99",
                 "x_icon": "fab fa-github"
             },
             {
-                "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
-                "network": "Discord",
-                "username": "taniyow#9142",
-                "url": "https://discord.com",
-                "x_icon": "fab fa-discord"
+                "network": "Spotify",
+                "username": "kyleblue42",
+                "url": "https://open.spotify.com/user/kyleblue42",
+                "x_icon": "fab fa-spotify"
             }
         ]
     },
     "work": [
         {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
+            "company": "Nuance Communications",
+            "position": "Software Engineering Intern",
+            "website": "https://www.nuance.com/index.html",
+            "startDate": "05-23-2022",
+            "endDate": "",
+            "summary": "",
+            "highlights": [""]
+        },
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "company": "University of Massachusetts Boston",
+            "position": "CS 210 Teaching Assistant",
+            "website": "",
+            "startDate": "09-01-2021",
+            "endDate": "05-20-2022",
+            "summary": "",
+            "highlights": [""]
         }
     ],
     "education": [
         {
-            "institution": "University",
-            "area": "Software Development",
-            "studyType": "Bachelor",
+            "institution": "University of Massachusetts Boston",
+            "area": "Computer Science",
+            "studyType": "Bachelor's of Science",
             "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "endDate": "December 2022",
+            "gpa": "3.2",
+            "courses": []
         }
     ],
     "awards": [
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "title": "Java Genius Award",
+            "date": "05-23-2018",
+            "awarder": "Angela Kendall",
+            "summary": "Kyle Hackett is officially a java genius and has earned the award 'Most Likely to Offer a Creative Solution'"
         }
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "",
+            "level": "",
+            "keywords": [""]
         }
     ],
     "languages": [
         {
-            "language": "German",
-            "fluency": "Native speaker"
-        },
-        {
             "language": "English",
             "fluency": "Fluent speaker"
-        },
-        {
-            "language": "French",
-            "fluency": "Good knowledge"
         }
     ],
     "interests": [
         {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
+            "name": "Video Games",
+            "keywords": ["Minecraft", "Halo"]
+        },
+        {
+            "name": "Outdoors",
+            "keywords": ["Hiking", "Kayaking"]
         }
     ],
     "references": [
         {
-            "name": "Jane Doe",
-            "reference": "Reference..."
+            "name": "",
+            "reference": ""
+        }
+    ]
+    ,
+    "projects": [
+        {
+            "name": "Project",
+            "description": "Description…",
+            "highlights": [
+            "Won award at AIHacks 2016"
+            ],
+            "keywords": [
+            "HTML"
+            ],
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "url": "https://project.com/",
+            "roles": [
+            "Team Lead"
+            ],
+            "entity": "Entity",
+            "type": "application"
         }
     ]
 }

@@ -29,10 +29,11 @@ const useStyles = makeStyles((theme) => ({
 
 export const Contact = () => {
   const classes = useStyles();
-  const greetings = "Say hello.";
+  const greetings = "Under Construction";
 
   const form = useRef();
 
+  // Replace with a different provider so it works on github pages
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -45,9 +46,9 @@ export const Contact = () => {
     Swal.fire({
       position: 'center',
       icon: 'success',
-      title: 'Your work has been saved',
+      title: 'Your message has been sent!',
       showConfirmButton: false,
-      timer: 1500
+      timer: 1000
     })
     e.target.reset()
   };
@@ -95,9 +96,9 @@ export const Contact = () => {
                 </button>
               </form>
             </div>
-            <h1 className="contact_msg">
+            <h3 className="contact_msg">
               <TextDecrypt text={greetings}/>
-            </h1>
+            </h3>
           </div>
         </Container>
       </section>
